@@ -1,0 +1,7 @@
+<div class="parrafo">
+  Estos son los posts :D
+ </div>
+ 
+ <ul>
+   <li class ="post" *ngFor="let post of users" (click)="traerAlgo(post.id)">{{post.id}} - {{post.title}} <div>{{post.body}}</div></li>
+ </ul>
